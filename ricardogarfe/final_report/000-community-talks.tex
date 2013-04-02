@@ -6,6 +6,10 @@
 \usepackage{float}
 \usepackage{hyperref}
 
+\usepackage{tikz}
+
+\usetikzlibrary{matrix}
+
 \graphicspath{{../images/}}
 
 \title{\textbf{Case Studies II - Community Talks}}
@@ -59,5 +63,73 @@
 \include{014-osor-community-talk}
 \include{015-kde-community-talk}
 
-\end{document}
+\section{Differences and Similarities}
+\label{sec:differences-and-similarities}
 
+\par Using matrix visualization we are going to appreciate differences and similarities between contributions access guidelines through project communities analyzed in talks checking:
+
+\begin{itemize}
+	\item \emph{Mailing lists} -  Mailing list such as developers, users, etc\ldots
+	\item \emph{Developer Guide} - Documentation for start development environment.
+	\item \emph{Bug Tracking System} - Bug or Issue tracking system to manage project resources and schedules.
+	\item \emph{Mentoring program} - Mentoring program to introduce new users to produce upstream in the community and guide them into the process with another members of the community.
+	\item \emph{Forum} - Forum, FAQs or other tool to interact the community creating community.
+	\item \emph{Documentation} - Project documentation for every type of user, from technical to end-user (if exists).
+\end{itemize}
+
+\begin{center}
+    \textbf{Y} - \emph{Yes}, \textbf{N} - \emph{No}, \textbf{N/A} - \emph{Not Available}
+\end{center}
+
+\begin{center}
+    \begin{tabular}{ | l | c | c | c | c | c | c | }
+        \hline
+        & \textbf{Mail list} & \textbf{Dev Guide} & \textbf{BTS} & \textbf{Mentoring} & \textbf{Forum} & \textbf{Documentation} \\ \hline
+        \hline 
+        \emph{Apache}              & Y & Y & Y & Y & \textbf{N} & Y \\ \hline
+        \emph{WebKit}              & Y & Y & Y & \textbf{N} & \textbf{N} & Y  \\ \hline
+        \emph{Plan9}               & Y & Y & \textbf{N} & \textbf{N} & \textbf{N} & Y \\ \hline
+        \emph{Mozilla}             & Y & \textbf{N} & Y & \textbf{N} & Y & Y  \\ \hline
+        \emph{GNU}                 & Y & Y & Y & \textbf{N} & \textbf{N} & Y \\ \hline
+        \emph{Open Document}       & Y & Y & Y & Y & Y & Y \\ \hline
+        \emph{Libre Desktop}       & \textbf{N/A} & \textbf{N/A} & \textbf{N/A} & \textbf{N/A} & \textbf{N/A} & \textbf{N/A} \\ \hline
+        \emph{Wikipedia}           & Y & Y & Y & Y & Y & Y \\ \hline
+        \emph{Liferay}             & Y & Y & Y & \textbf{N} & Y & Y \\ \hline
+        \emph{AZLinux Migration}   & \textbf{N/A} & \textbf{N/A} & \textbf{N/A} & \textbf{N/A} & \textbf{N/A} & \textbf{N/A} \\ \hline
+        \emph{GNOME}               & Y & Y & Y & \textbf{N} & \textbf{N} & Y \\ \hline
+        \emph{Thunderbird}         & Y & Y & Y & \textbf{N} & Y & Y\\ \hline
+        \emph{Canonical/Ubuntu}           & Y & Y & Y & \textbf{N} & Y & Y \\ \hline
+        \emph{OSOR}                & \textbf{N/A} & \textbf{N/A} & \textbf{N/A} & \textbf{N/A} & \textbf{N/A} & \textbf{N/A} \\ \hline
+        \emph{KDE}                 & Y & Y & Y & Y & Y & Y \\ \hline
+    \end{tabular}
+\end{center}
+
+% section differences-and-similarities (end)
+
+\section{Conclusions}
+\label{sec:conclusions}
+
+\par Taking a first look into the result table we can remove data that can't be evaluated from projects such as:
+\begin{itemize}
+	\item \emph{Libre Desktop} - The talk was related to how the law evolved to IT and FLOSS during last 30 years in Spain.
+	\item \emph{AZLinux Migration} - Migration to FLOSS in Public Administrations. This project as is explained is more important to spread this results that contribute because is a process not a FLOSS project by itself.
+	\item \emph{OSOR} - OSOR Project disappear in December 2011 so, development and contributions doesn't already exist for our misfortune.
+\end{itemize}
+
+\par The following leads out to \emph{Mentoring} column. There are a lot of projects (analyzed in the talks) that do not involve mentoring 5 to 7. Those projects that use some kind of mentoring (interactive manuals guided by a another user/s) are more focused to end-user (non technical) that others. Their marketing is related to more 'tangible' projects for the 'real world' like Wikipedia, KDE, Open Document and Apache ? I think they have more 'human' part than the others and because of that they produce these mentoring programs.
+
+\par Other remarkable point are the \emph{Forums}. Surprised when I saw the results that projects like GNOME doesn't have official forums, neither than WebKit a project used worldwide and covers many fields. These projects work with what they need, it is always better \textbf{to know that you do not need}.
+
+\emph{Jono Bacon} in Art-of-community introduction to \emph{Communicating Clearly} chapter:
+\begin{quotation}
+    \emph{"Community is absolutely about understanding the ether. Our notes are the processes, governance, tools, and methods in which we work together. The notes we don’t play are the subtle nuances in how we pull these notes together and share them with one another. The space between the notes is communication."}
+\end{quotation}
+
+\par In the opposite hand we have Open Document community that works great with them forums as Charles told us.
+
+\par In closing, I wish to emphasize a conclusion on the final paragraph. The communities studied have their little rules to run through his life. As people also find it difficult to change because all change is associated with ignorance and uncertainty. What I mean is that each one works in a way through standards but underneath all, absolutely all, are communities of people who rely on the cooperation and communication between them.
+
+\par We can not draw generic standards for the communities studied with the data we have exposed. It's a small study on a roughly speeches in the course classes 'Case Studies II' and the amount of research work on FLOSS communities.
+
+% section conclusions (end)
+\end{document}
