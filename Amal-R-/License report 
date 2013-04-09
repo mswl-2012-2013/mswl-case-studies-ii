@@ -1,5 +1,4 @@
-
-\documentclass[11pt]{article} % Default font size is 12pt, it can be changed here
+\documentclass[11pt]{article} % Def     ault font size is 12pt, it can be changed here
 \usepackage{geometry} % Required to change the page size to A4
 \geometry{a4paper} % Set the page size to be A4 as opposed to the default US Letter
 \usepackage{graphicx} % Required for including pictures
