@@ -13,7 +13,7 @@
 \begin{center}
 % Upper part of the page
 %\textsc{\LARGE Universidad Rey Juan Carlos}\\[1.5cm]
-\includegraphics[width=50mm,height=20mm]{./latex/logo-urjc.jpg}
+\includegraphics[width=50mm,height=20mm]{logo-urjc.jpg}
 
 %\vspace{0.5cm}
 \vspace{4cm}
@@ -37,13 +37,13 @@ Antonio Carmona \'Alvarez Mar-2013
 \end{minipage}
 \vfill
 % Bottom of the page
-\includegraphics[width=3.1cm,height=1.08cm]{./latex/by_petit.png}
+\includegraphics[width=3.1cm,height=1.08cm]{by_petit.png}
 {\large}
 \end{center}
 \end{titlepage}
 
 \newpage
-\tableofcontents  %%Para que funcione el indice hay que ejecutarlo dos veces elpdflatex
+\tableofcontents  %%Para que funcione el indice hay que ejecutarlo dos veces el pdflatex
 \newpage
 
 \section{Apache}
@@ -56,11 +56,13 @@ organizaci\'on sin \'animo de lucro formada por voluntarios.\\
 Todo surgi\'o cuando el grupo de desarrolladores que ven\'ia trabajando en el servidor web NCSA decidi\'o dejar el proyecto para desarrollar Netscape.
 Dado que hab\'ia bastantes usuarios que utilizaban dicho servidor web, desde los foros y listas de correo del proyecto NCSA se fueron organizando con 
 el fin de retomar el proyecto haciendo un fork del proyecto original NCSA, empezaron simplemente por ir parcheando el proyecto, pero
-fue creciendo poco a poco, entre 1995 y 1999 creci\'o de manera significativa y hab\'ia ya una considerable cantidad de versiones liberadas. 
+fue creciendo poco a poco, entre 1995 y 1999 creci\'o de manera significativa y hab\'ia ya una considerable cantidad de versiones liberadas.
+\\
+La \emph{Fundación Apache}\footnote{\url{http://www.apache.org/}} fue creada en Junio de 1999 en Delaware para dar cobertura legal al servidor web Apache.
 
 \section{Webkit}
 
-Webkit, es un motor de rendering de web, no es un navegador web, surge como un fork de KHTML (proyecto de renderizado HTML de KDE )
+\emph{WebKit}\footnote{\url{http://www.webkit.org/}}, es un motor de rendering de web, no es un navegador web, surge como un fork de KHTML (proyecto de renderizado HTML de KDE )
  y de KJS (motor de Javascript de KDE), fue hecho por Apple en 2001, ambos proyectos (KHTML y KJS) fueron portados a MACOS X  y renombrados como Webcore y 
 JavaScriptCore respectivamente, ambos eran software libre (GPL) y eran parte del proyecto WebKit el cu\'al inicialmente era privativo pero fue 
 liberado en 2005 abriendo su c\'odigo fuente y haciendo p\'ublica su lista de bugs, Webkit se liber\'o con licencia BSD.\\
@@ -72,7 +74,7 @@ conferencia Webkit.
 \section{Plan 9}
 
 A mediados de los 80 el mismo grupo de desarrolladores (en la empresa Bell labs) que realiz\'o Unix empezaron a desarrollar un nuevo sistema operativo llamado
-Plan9 que le reemplazara, lo iniciaron en la misma sala donde se desarroll\'o Unix, la raz\'on por la que se iniciaron en el desarrollo
+\emph{Plan 9}\footnote{\url{http://plan9.bell-labs.com/plan9/}} que lo reemplazara, lo iniciaron en la misma sala donde se desarroll\'o Unix, la raz\'on por la que se iniciaron en el desarrollo
 de un nuevo sistema operativo era porque Unix no estaba pensado para distribuirse en red ( esto se consigui\'o posteriormente con la pila tcp/ip)
 su kernel no era un diseño para estar integrado en una red, estaba pensado para una m\'aquina
 multiusuario muy grande, en los 80 llegaron las redes y empezaron los problemas , interfaces duplicadas , el kernel empez\'o a crecer exageradamente y todo porque el 
@@ -115,13 +117,13 @@ Hubo reacciones de escepticismo y de entusiasmo al mismo tiempo ,hab\'ia gente q
 Hubo que desechar el c\'odigo entero porque hab\'ia mezcla de licencias, se decide en muchas partes reescribir el c\'odigo desde cero.
 Dos años despu\'es de la liberaci\'on apareci\'o Netscape 6, la primera versi\'on del navegador desde la liberaci\'on del c\'odigo fuente.
 \\\\
-En 2002 se liber\'o la versi\'on Mozilla 1.0 , en el 2003 se cre\'o la fundaci\'on Mozilla formada por los colaboradores
+En 2002 se liber\'o la versi\'on Mozilla 1.0 , en el 2003 se cre\'o la fundaci\'on \emph{Mozilla}\footnote{\url{http://www.mozilla.org/foundation/}} formada por los colaboradores
 antiguos de Netscape , las mismas personas que hab\'ian estado desarrollando el navegador los \'ultimos cinco años.
 \\\\
-Debido a que el proyecto empez\'o a conseguir bastante dinero tuvieron que crear la Mozilla Corporation en el año 2005, que 
+Debido a que el proyecto empez\'o a conseguir bastante dinero tuvieron que crear la \emph{Mozilla Corporation}\footnote{\url{http://www.mozilla.org/foundation/moco.html}} en el año 2005, que 
 depend\'ia directamente de la fundaci\'on.
 \\\\
-En 2008 surge una nueva divisi\'on, Mozilla Messaging , con pocos empleados , estaban focalizados en el desarrollo de Thunderbird, 
+En 2008 surge una nueva divisi\'on, Mozilla Messaging , con pocos empleados , estaban focalizados en el desarrollo de \emph{Thunderbird}\footnote{\url{https://www.mozilla.org/en-US/thunderbird/}}, 
 ahora esos empleados est\'an integrados en Moco.
 \\\\
 El objetivo de Mozilla es que los usuarios tengan la opci\'on de elegir como quieren navegar por Internet y que la 
@@ -130,7 +132,7 @@ son colaboradores.
 
 \section{GNU}
 
-GNU fue creada por Richard Stallman en 1983 con el objetivo de escribir un sistema operativo tipo unix que fuera software libre , la FSF fue 
+GNU fue creada por \emph{Richard Stallman}\footnote{\url{http://stallman.org/}} en 1983 con el objetivo de escribir un sistema operativo tipo unix que fuera software libre , la FSF fue 
 creada un año despu\'es para dar soporte legal a GNU. Porqu\'e tipo Unix?, todo por razones t\'ecnicas,
  Unix era popular pero no tanto como VMS,  Richard escogi\'o unix por estar compuesto de utilidades
   independientes y por ser algo m\'as f\'acil de imitar o clonar que VMS, que era mucho m\'as compacto.
@@ -170,35 +172,34 @@ hubo forks serios: egcs y Xemacs, el primero era un fork de gcc, aparecieron com
      multilicencia con el GPLv3  o superior.Aparece tambi\'en la licencia AGPLv3 que generaliza el concepto de distribuci\'on
       para que se acople a los programas web.
 \\\\
-En los 2000 tambien hubo cambios organizativos en GNU, a finales aparece un grupo de mantenedores
- llamdado Rabbit Herd que empez\'o a cuestionarse cosas y discutir, hicieron un documento y fue
-  presentado a Richard Stallman y a ra\'iz de eso surgieron dos revoluciones una la GNU Advisory
-   committe y la otra la GNU Hackers Meetings
+En los 2000 tambi\'en hubo cambios organizativos en GNU, a finales aparece un grupo de mantenedores
+ llamado \emph{Rabbit Herd} que empez\'o a cuestionarse cosas y discutir, hicieron un documento y fue
+  presentado a Richard Stallman y a ra\'iz de eso surgieron dos revoluciones una la \emph{GNU Advisory Committee}\footnote{\url{http://www.gnu.org/contact/gnu-advisory.html}} y la otra la \emph{GNU Hackers' Meetings}\footnote{\url{http://www.gnu.org/ghm/}}.
 \\\\
-En  2010 y posteriores hay mas cambios organizativos y aparecier\'on nuevas versiones de paquetes como GNU mediagoblin (youtube de GNU),
- GNU social y una tendencia a las redes y a la seguridad de las mismas.
+En  2010 y posteriores hay mas cambios organizativos y aparecier\'on nuevas versiones de paquetes como GNU \emph{mediagoblin}\footnote{\url{http://mediagoblin.org/}} (youtube de GNU),
+ \emph{GNU social}\footnote{\url{http://www.gnu.org/software/social/}} y una tendencia a las redes y a la seguridad de las mismas.
 
 \section{The Document Foundation}
 
-The Document Foundation es una organizaci\'on creada por antiguos miembros del proyecto OpenOffice , su creaci\'on
+\emph{The Document Foundation}\footnote{\url{http://www.documentfoundation.org/}} es una organizaci\'on creada por antiguos miembros del proyecto \emph{OpenOffice}\footnote{\url{http://www.openoffice.org/es/}} , su creaci\'on
 fue anunciada en el 2010 y surgi\'o como respuesta a la adquisici\'on de Oracle del proyecto Openoffice y la
 obligaci\'on impuesta por Oracle de tener que cederle los derechos de autor de todo lo que se desarrollara.
 \\\\
 Cuando se cre\'o la fundaci\'on por parte de 33 miembros del proyecto OpenOffice, Oracle invit\'o a los
-mismos a abandonar el proyecto por conflicto de intereses.
+mismos a abandonar el proyecto por conflicto de intereses. Dando como resultado la suite ofim\'atica \emph{LibreOffice}\footnote{\url{http://es.libreoffice.org/}}.
 \\\\
 En el 2011, Oracle decidi\'o deshacerse del proyecto, y lo cedi\'o a la Apache Software Foundation, d\'andose
 la situaci\'on de tener actualmente dos suites de oficina muy similares y las dos dentro del mundo
-del software libre .
+del software libre.
 
 \section{Liferay}
 
-Liferay es un portal de gesti\'on de contenidos desarrollado por Brian Chan en Java, lo inici\'o en el año 2000 al darse cuenta de que 
+\emph{Liferay}\footnote{\url{http://www.liferay.com/}} es un portal de gesti\'on de contenidos desarrollado por \emph{Brian Chan}\footnote{\url{http://www.liferay.com/about-us/leadership/bchan}} en Java, lo inici\'o en el año 2000 al darse cuenta de que 
 las actuales soluciones en cuanto a portales de contenidos eran excesivamente caras y en sus horas libres se puso a desarrollar el
 suyo propio, a los dos años enseñ\'o en la empresa en la que trabajaba lo que hab\'ia estado realizando pero no qued\'o satisfecho
-con el dinero que le podr\'ian ofrecer por el, as\'i que decidi\'o liberarlo, coloc\'o todo el proyecto en la forja Sourceforge bajo 
-licencia MIT y dado que en el mundo java los gestores de contenido eran muy pobres surgieron empresas que empezaron a utilizarlo y poco
-a poco empezaron a ponerse en contacto con Brian porque necesitaban soporte , para poder dar este servicio Brian se puso en contacto
+con el dinero que le podr\'ian ofrecer por \'el, as\'i que decidi\'o liberarlo, coloc\'o todo el proyecto en la forja \emph{Sourceforge}\footnote{\url{http://sourceforge.net/}} bajo 
+licencia \emph{MIT}\footnote{\url{http://opensource.org/licenses/MIT}} y dado que en el mundo java los gestores de contenido eran muy pobres surgieron empresas que empezaron a utilizarlo y poco
+a poco empezaron a ponerse en contacto con Brian porque necesitaban soporte, para poder dar este servicio Brian se puso en contacto
 con amigos suyos para que le ayudaran y as\'i casi sin darse cuenta desarroll\'o un modelo de negocio de consultor\'ia alrededor de
 un proyecto de software libre.
 \\\\
@@ -212,7 +213,7 @@ surgiendo gran n\'umero de versiones la u\'ltima en aparecer ha sido la versi\'o
 
 \section{KDE}
 
-Matthias Ettrich es el creador en 1997 del proyecto KDE con el objetivo de crear una interface gr\'afica 
+Matthias Ettrich es el creador en 1997 del proyecto \emph{KDE}\footnote{\url{http://www.kde.org/}} con el objetivo de crear una interface gr\'afica 
 unificada para los sistemas Unix, la primera versi\'on de KDE , la 1.0 apareci\'o en 1998 y contaba con
 una gran n\'umero de utilidades. El proyecto KDE ha estado ligado desde un principio a la herramienta
 gr\'afica Qt que se licenciaba de manera dual con licencia privativa lo que supuso alg\'un que otro
@@ -233,8 +234,8 @@ API para redes o Decibel un framework de comunicaci\'on.
 
 \section{GNOME}
 
-En 1997 Matthias Ettrich fund\'o el proyecto KDE, en 1997 Miguel de Icaza anunci\'o el 
-proyecto Gnome , en aquellos momentos el sistema operativo de escritorio estrella
+En 1997 Matthias Ettrich fund\'o el proyecto KDE, en 1997 \emph{Miguel de Icaza}\footnote{\url{http://tirania.org/blog/}} anunci\'o el 
+proyecto \emph{GNOME}\footnote{\url{http://www.gnome.org/}} , en aquellos momentos el sistema operativo de escritorio estrella
 era Windows 95, todo el mundo se hab\'ia acostumbrado a el, ambos proyectos, Gnome
 y Kde prentend\'ian realizar un escritorio alternativo y surgieron ambos debido a que
 KDE que apareci\'o primero estaba basado en una herramienta gr\'afica llamada Qt que no 
@@ -290,7 +291,7 @@ que continuen utiliz\'andola.
 
 \section{Canonical}
 
-Canonical es una empresa que fue fundada por Mark Shuttleworth en el 2004 , Mark naci\'o en Sud\'africa (1973), en Welkom (Free State), pero creci\'o en Ciudad
+\emph{Canonical}\footnote{\url{http://www.canonical.com/}} es una empresa que fue fundada por \emph{Mark Shuttleworth}\footnote{\url{http://www.markshuttleworth.com/}} en el 2004. Mark naci\'o en Sud\'africa (1973), en Welkom (Free State), pero creci\'o en Ciudad
 Del Cabo, su amor por la tecnolog\'ia y la inovaci\'on le llevo a estudiar finanzas e Inform\'atica en
 la Universidad de Ciudad Del Cabo (UCT), desde muy joven fue un gran emprendedor, el mismo
 año que terminaba la universidad fund\'o la empresa Thawte que fue todo un \'exito y con ella y su
@@ -298,22 +299,22 @@ venta se hizo con unos increibles beneficios que le han permitido llevar a cabo 
 proyectos todos ellos relacionados con el mundo del software libre, adem\'as durante la d\'ecada de los
 90 fue desarrollador de Debian (colabor\'o tambi\'en con el proyecto Apache)
 \\\\
-En 1995 fund\'o la compañ\'ia Thawte como empresa de consultor\'ia en Internet que se centr\'o en
+En 1995 fund\'o la compañ\'ia \emph{Thawte}\footnote{\url{http://www.thawte.com/}} como empresa de consultor\'ia en Internet que se centr\'o en
 la seguridad en la red y en el comercio electr\'onico especializ\'andose en certificados digitales y criptograf
 \'ia (implantando la infraestructura de clave p\'ublica en el mundo de las transacciones cifradas
 y autenticadas por Internet), fue una de las primeras empresas de seguridad en ser reconocidas por
 Microsoft y Netscape para la certificaci\'on de sitios web , en 1999 VeriSign compr\'o Thawte por 575
 millones de d\'olares,
 \\\\
-A principios de 2004, Mark desde su empresa , Cannonical Ltd fund\'o el proyecto Ubuntu (creando
+A principios de 2004, Mark desde su empresa , Cannonical Ltd fund\'o el proyecto \emph{Ubuntu}\footnote{\url{http://www.ubuntu.com/}} (creando
 tambi\'en la Fundaci\'on Ubuntu), d\'andose a conocer el 8 de Julio de 2004 como una distribuci\'on
 Linux basada en Debian , el proyecto arranc\'o con una financiaci\'on incial de 10 millones de d\'olares
-y un grupo de desarrolladores de Debian que perdieron la ilusi\'on en ese proyecto (criticado por
+y un grupo de desarrolladores de \emph{Debian}\footnote{\url{http://www.debian.org/index.html}} que perdieron la ilusi\'on en ese proyecto (criticado por
 su esquema organizativo con excesiva burocracia donde la toma de decisiones era extremadamente
 compleja) y decidieron embarcarse en Ubuntu con el objetivo de crear un sistema operativo
 de escritorio. basado en Linux (tomando a Debian como distribuci\'on madre) y distribuirlo como
 software libre con la m\'axima de hacer un entorno f\'acil de utilizar intentado llegar a la mayor
-cantidad de usuarios posible , Ubuntu fue pensada como una iniciartiva que en un futuro pudiera
+cantidad de usuarios posible , Ubuntu fue pensada como una iniciativa que en un futuro pudiera
 autofinanciarse.
 Su primera versi\'on es del 20 de octubre de 2004 y se calcula que actualmente tiene una presencia
 de un 49\% dentro de las distribuciones Linux, Ubuntu es una palabra africana muy antigua
@@ -324,5 +325,9 @@ Los paquetes de Ubuntu est\'an basados en la rama inestable de Debian Muchos des
 de Ubuntu tambi\'en mantienen paquetes clave en Debian. Ubuntu coopera con Debian devolviendo
 cambios y mejoras en el c\'odigo, aunque existen cr\'iticas sobre las escasas aportaciones y problemas
 de compatibilidad que hay entre ambas distribuciones.
+
+\section{Conclusion}
+
+\textbf{TBC}
 
 \end{document}
