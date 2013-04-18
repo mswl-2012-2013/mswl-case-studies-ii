@@ -14,3 +14,4 @@ Community Talks Final Reports for Case Studies II Subject coursed in [Master on 
 * Ricardo García Fernández (@ricardogarfe) - Final Report about Technologies and Contributions.
 * Amal Roumi  (@roumia) - Final Report about licenses  .
 * Antonio Carmona Álvarez  (@antcargit) - Final Report about history of projects
+* Diego Hernandez (@donaldyo)- Final Report about business model.
